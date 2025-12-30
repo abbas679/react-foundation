@@ -1,6 +1,7 @@
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import UserCard from "./components/UserCard";
+import Counter from "./components/Counter";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Header title="Dashboard" />
       <UserCard name="Tahir" role="Developer" />
       <UserCard name="Taheer" role="Owner" />
+      <Counter />
       <Footer />
     </>
   );
