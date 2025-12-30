@@ -1,5 +1,5 @@
-function Header() {
-  return <h1>My React App</h1>;
+function Header({ title }) {
+  return <h1>{title}</h1>;
 }
 
 export default Header;
